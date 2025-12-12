@@ -1,0 +1,93 @@
+.contact-container {
+  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%);
+  min-height: 100vh;
+}
+
+.contact-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-header::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: rgba(129, 199, 132, 0.1);
+  border-radius: 50%;
+}
+
+.contact-form-card {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-input {
+  transition: all 0.3s ease;
+}
+
+.contact-input:focus {
+  border-color: #66bb6a !important;
+  box-shadow: 0 0 0 0.2rem rgba(102, 187, 106, 0.25);
+  outline: none;
+}
+
+.contact-input.ng-invalid.ng-touched {
+  border-color: #ef5350 !important;
+}
+
+.contact-btn {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(46, 125, 50, 0.3);
+}
+
+.contact-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.contact-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.contact-info-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(46, 125, 50, 0.15);
+}
+
+.alert {
+  animation: slideInDown 0.4s ease;
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-info-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(46, 125, 50, 0.15);
+}

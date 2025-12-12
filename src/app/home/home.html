@@ -1,42 +1,54 @@
-<div class="container py-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8 text-center">
-      <h1 class="display-4 mb-4">This is my portfolios homepage derived from a template!</h1>
-      <p class="lead mb-5">
-        Discover projects, skills, and more in this portfolio. Built with Angular, TypeScript, and Bootstrap.
-      </p>
-      <a class="btn btn-primary btn-lg px-4" routerLink="projects" role="button">
-        View Projects
-      </a>
+<div class="home-container">
+  <div class="hero-section" style="background: linear-gradient(135deg, #e0f2f1 0%, #c8e6c9 100%); min-height: 70vh; display: flex; align-items: center; justify-content: center;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h1 class="display-3 mb-4" style="color: #1b5e20; font-weight: 700;">
+            <i class="bi bi-leaf-fill" style="font-size: 2.5rem;"></i> Welcome to My Portfolio
+          </h1>
+          <p class="lead mb-5" style="color: #2e7d32; font-size: 1.25rem;">
+            Explore my journey through APPDEV1 coursework, where every project is crafted with care.
+          </p>
+          <a class="btn btn-lg px-5" routerLink="projects" role="button" style="background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%); color: #c8e6c9; border: none; font-weight: 600;">
+            <i class="bi bi-folder-open" style="margin-right: 0.5rem;"></i>View My Projects
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="row mt-5">
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">About Me</h5>
-          <p class="card-text">
-            Passionate developer focused on scalable web applications and clean code.
+
+  <div class="container py-5">
+    <div class="row mt-5 g-4">
+      <div class="col-md-4">
+        <div class="feature-card h-100" style="background: #f1f8e9; border: 2px solid #81c784; border-radius: 12px; padding: 1.5rem; text-align: center; transition: all 0.3s;">
+          <div style="color: #2e7d32; font-size: 2.5rem; margin-bottom: 1rem;">
+            <i class="bi bi-code-square"></i>
+          </div>
+          <h5 class="card-title" style="color: #1b5e20; font-weight: 600;">Clean Code</h5>
+          <p class="card-text" style="color: #424242;">
+            Passionate developer focused on scalable web applications and maintainable code architecture.
           </p>
         </div>
       </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Skills</h5>
-          <p class="card-text">
-            Angular, TypeScript, RxJS, Bootstrap, Accessibility, Performance.
+      <div class="col-md-4">
+        <div class="feature-card h-100" style="background: #e8f5e9; border: 2px solid #81c784; border-radius: 12px; padding: 1.5rem; text-align: center; transition: all 0.3s;">
+          <div style="color: #2e7d32; font-size: 2.5rem; margin-bottom: 1rem;">
+            <i class="bi bi-lightning-fill"></i>
+          </div>
+          <h5 class="card-title" style="color: #1b5e20; font-weight: 600;">Modern Tech</h5>
+          <p class="card-text" style="color: #424242;">
+            Angular, TypeScript, RxJS, Signals and Bootstrap for responsive design.
           </p>
         </div>
       </div>
-    </div>
-    <div class="col-md-4 mb-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Contact</h5>
-          <p class="card-text">
-            Get in touch for collaboration or questions about my work.
+      <div class="col-md-4">
+        <div class="feature-card h-100" style="background: #f1f8e9; border: 2px solid #81c784; border-radius: 12px; padding: 1.5rem; text-align: center; transition: all 0.3s;">
+          <div style="color: #2e7d32; font-size: 2.5rem; margin-bottom: 1rem;">
+            <i class="bi bi-chat-dots-fill"></i>
+          </div>
+          <h5 class="card-title" style="color: #1b5e20; font-weight: 600;">Collaboration</h5>
+          <p class="card-text" style="color: #424242;">
+            Get in touch for collaboration opportunities or questions about my work.
           </p>
         </div>
       </div>

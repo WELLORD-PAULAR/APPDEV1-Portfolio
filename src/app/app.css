@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  min-height: 100vh;
+}
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link:hover {
+  color: #81c784 !important;
+  text-shadow: 0 0 8px rgba(129, 199, 132, 0.3);
+}
+
+body {
+  background: linear-gradient(135deg, #f1f8e9 0%, #e8f5e9 100%);
+  min-height: 100vh;
+}

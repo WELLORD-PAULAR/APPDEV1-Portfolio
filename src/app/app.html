@@ -1,21 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" routerLink="/"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 100%);">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/" style="color: #c8e6c9; font-weight: 600; font-size: 1.3rem;">
+      <i class="bi bi-leaf-fill" style="margin-right: 0.5rem;"></i>Portfolio
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact">Contacts</a>
-      </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" style="color: #c8e6c9; transition: all 0.3s;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" style="color: #c8e6c9; transition: all 0.3s;">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/projects" style="color: #c8e6c9; transition: all 0.3s;">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact" style="color: #c8e6c9; transition: all 0.3s;">Contact</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
 <router-outlet />
